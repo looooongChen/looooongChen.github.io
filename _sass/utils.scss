@@ -17,4 +17,8 @@
   width: 125px;
   height: 125px;
   margin: 10px;
+  @media screen and (max-width: 800px) {
+    width: 60%;
+    height: auto;
+  }
 }
