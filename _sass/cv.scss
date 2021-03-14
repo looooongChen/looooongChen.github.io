@@ -41,6 +41,9 @@
     right: 0;
     top: 0;
     color: $text-secondary;
+    @media screen and (max-width: 800px) {
+        position: static;
+    }
 }
 
 .cv-organization {
