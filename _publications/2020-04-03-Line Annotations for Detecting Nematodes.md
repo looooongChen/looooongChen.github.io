@@ -8,7 +8,7 @@ published: IEEE International Symposium on Biomedical Imaging (ISBI) 2020
 categories: "publication"
 thumbnail: /assets/publications/thumbnail_isbi2020.png
 tag:
-- Instacen Segmentation
+- Instance Segmentation
 - Nematode
 - Weakly-Supervised
 ---

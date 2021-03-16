@@ -8,7 +8,7 @@ published: International Conference of the IEEE Engineering in Medicine and Biol
 categories: "publication"
 thumbnail: /assets/publications/thumbnail_embc2019.jpg
 tag:
-- Instacen Segmentation
+- Instance Segmentation
 - Nematode
 ---
 

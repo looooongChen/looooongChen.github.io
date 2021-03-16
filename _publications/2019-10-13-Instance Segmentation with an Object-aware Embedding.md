@@ -8,7 +8,7 @@ published: International Conference on Medical Image Computing and Computer Assi
 categories: "publication"
 thumbnail: /assets/publications/thumbnail_miccai2019.png
 tag:
-- Instacen Segmentation
+- Instance Segmentation
 - Pixel Embedding
 ---
 

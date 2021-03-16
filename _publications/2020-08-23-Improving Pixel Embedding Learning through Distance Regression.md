@@ -8,7 +8,7 @@ published: ECCV 2020 Workshop on Computer Vision Problems in Plant Phenotyping (
 categories: "publication"
 thumbnail: /assets/publications/thumbnail_eccv2020.png
 tag:
-- Instacen Segmentation
+- Instance Segmentation
 - Pixel Embedding
 - Distance Regression
 ---

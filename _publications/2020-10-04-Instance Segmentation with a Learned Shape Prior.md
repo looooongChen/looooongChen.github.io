@@ -9,7 +9,7 @@ categories: "publication"
 thumbnail: /assets/publications/thumbnail_miccai2020.png
 tag:
 - Semi-Supervised
-- Instacen Segmentation
+- Instance Segmentation
 - Shape Prior
 ---
 <br>
