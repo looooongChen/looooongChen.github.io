@@ -1,0 +1,118 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+# sidebar:
+#     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+#     education: True # set to False if you want education in main section instead of in sidebar
+
+#     # Profile information
+#     name: Alan Doe
+#     tagline: Full Stack Developer
+#     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+#     # Sidebar links
+#     email: hello@webjeda.com
+#     phone: 012 345 6789
+#     website: blog.webjeda.com #do not add http://
+#     linkedin: alandoe
+#     github: sharu725
+#     telegram: # add your nickname without '@' sign
+#     gitlab:
+#     bitbucket:
+#     twitter: '@webjeda'
+#     stack-overflow: # Number/Username, e.g. 123456/alandoe
+#     codewars:
+#     goodreads: # Number-Username, e.g. 123456-alandoe
+
+#     languages:
+#       - idiom: English
+#         level: Native
+
+#       - idiom: French
+#         level: Professional
+
+#       - idiom: Spanish
+#         level: Professional
+
+#     interests:
+#       - item: Climbing
+#         link:
+
+#       - item: Snowboarding
+#         link:
+
+#       - item: Cooking
+#         link:
+
+# career-profile:
+#     title: Career Profile
+#     summary: |
+#       Summarise your career here lorem ipsum dolor sit amet, consectetuer
+#       adipiscing elit. You can [download this free resume/CV template here]().
+#       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+#       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+#       Donec quam felis, ultricies nec, pellentesque eu.
+#       Second paragraph if required.
+
+experiences:
+    - role: Scientific Researcher, PhD student
+      time: 2018.03 - present
+      organization:  Institute of Imaging & Computer Vision (LfB), RWTH Aachen University, Germany
+      link: https://www.lfb.rwth-aachen.de/en/
+    - role: Intern in Computer Vision
+      time: 2017.10 - 2018.02
+      organization: Huarui AI, Beijing, China
+      link: http://huarui.ai/
+    - role: Intern in Database Development
+      time: 2017.04 - 2017.09
+      organization: Robert Bosch GmbH, Hildesheim, Germany
+      link: https://www.bosch.de/unser-unternehmen/bosch-in-deutschland/hildesheim/
+    - role: Student Research Assistant
+      time: 2016.03 - 2016.06
+      organization: Institute of Technical Acoustics (ITA), RWTH Aachen University, Germany
+      link: https://www.akustik.rwth-aachen.de/go/id/dwma/?lidx=1
+        
+    
+educations:
+    - degree: M.Sc. in Computer Engineering
+      time: 2014 - 2017
+      university: RWTH Aachen University, Aachen, Germany
+      link: https://www.rwth-aachen.de/cms/~a/root/
+      details: |
+        
+    - degree: B.Sc. in Microelectronics
+      time: 2009 - 2013
+      university: Xidian University, Xi'an, China
+      link: https://www.xidian.edu.cn/
+      details: |
+      
+awards:
+    - title: Best Paper Honorable Mention of ECCV 2020 workshop CVPPP
+      link: /assets/CV/certificate_ECCV2020.pdf
+    - title: 3rd Place Winner of the Grand Challenge on MR Brain Segmentation at MICCAI 2018
+      link: /assets/CV/certificate_miccai2018.pdf
+
+
+# skills:
+#     title: Skills &amp; Proficiency
+
+#     toolset:
+#       - name: Python & Django
+#         level: 98%
+
+#       - name: Javascript & jQuery
+#         level: 98%
+
+#       - name: Angular
+#         level: 98%
+
+#       - name: HTML5 & CSS
+#         level: 95%
+
+#       - name: Ruby on Rails
+#         level: 85%
+
+#       - name: Sketch & Photoshop
+#         level: 60%
+

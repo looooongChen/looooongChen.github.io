@@ -1,0 +1,79 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<head>
+    {% include head.html %}
+</head>
+<body>
+    {% include nav.html %}
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="wrapper animated fadeIn">
+            <div class="content">
+                <div class="post-title {% if page.feature %} feature {% endif %}">
+                    <h1>{{ page.title }}</h1>
+                    <h4>{{ page.date | date_to_string }}</h4>
+                    {% if site.reading_time %}
+                    <p class="reading-time">
+                      <i class="fa fa-clock-o"></i>
+                      {% include read-time.html %}
+                    </p><!-- /.entry-reading-time -->
+                    {% endif %}
+                    
+                    
+                    <a class="btn zoombtn", onclick="history.back(-1)"><i class="fa fa-arrow-left"></i></a>
+                    {% if page.categories contains "project" or page.categories contains "research" %}
+                        <a class="btn zoombtn" href="{{site.url}}/research&project">
+                    {% elsif page.categories contains "publication" %}
+                        <a class="btn zoombtn" href="{{site.url}}/publication/">
+                    {% elsif page.categories contains "software" or page.categories contains 'dataset' %}
+                        <a class="btn zoombtn" href="{{site.url}}/software&dataset/">
+                    {% elsif page.type contains 'blog' %}
+                        <a class="btn zoombtn" href="{{site.url}}/blog/">
+                    {% else %}
+                        <a class="btn zoombtn" href="{{site.url}}/blog/">
+                    {% endif %}
+                        <i class="fa fa-list"></i>
+                    </a>
+                    <a class="btn zoombtn" href="{{site.url}}">
+                        <i class="fa fa-home"></i>
+                    </a>
+                </div>
+                {% if page.authors %}
+                    <p> <b>Authors:&nbsp;</b> {{ page.authors }} </p>
+                {% endif %}
+                {% if page.published %}
+                    <p> <b>Published in:&nbsp;</b> {{ page.published }} </p>
+                {% endif %}
+                {% if page.funding %}
+                    <p> <b>Funded by:&nbsp;</b> {{ page.funding }} </p>
+                {% endif %}
+                {% if page.collaboration %}
+                    <p> <b>Collaboration:&nbsp;</b> 
+                    <ul>
+                        {% for partner in page.collaboration %} 
+                            <li>{{ partner }}</li>
+                        {% endfor %}
+                    </ul>
+                    </p>
+                {% endif %}
+                {{ content }}
+                <div class="entry-meta">
+                {% include meta.html %}
+                </div>
+            </div>
+        </div>
+        {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %}
+    </header>
+    {% include scripts.html %}
+    {% if site.mathjax == true %}
+    <!-- MathJax -->
+    <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    {% endif %}
+</body>
+</html>
