@@ -11,9 +11,10 @@ tag:
 - Machine Learnig 
 ---
 
-| **Rotation** | **Translation** | **Crop** | **Contrast** | **Gamma** | **Elastic Deform** |
-|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:| 
-| ![demo_ratation](/assets/software/tfAugmentor/demo_random_rotation.gif) | ![demo_translation](/assets/software/tfAugmentor/demo_random_translation.gif) | ![demo_crop](/assets/software/tfAugmentor/demo_random_crop.gif) | ![demo_contrast](/assets/software/tfAugmentor/demo_random_contrast.gif) | ![demo_gamma](/assets/software/tfAugmentor/demo_random_gamma.gif) | ![demo_elastic](/assets/software/tfAugmentor/demo_random_elastic.gif) |
+
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
+|:---------:|:---------:|:---------:|:---------:|:-----------:|
+| ![demo_ratation](/assets/software/tfAugmentor/demo_random_rotation.gif) | ![demo_translation](/assets/software/tfAugmentor/demo_random_translation.gif) | ![demo_crop](/assets/software/tfAugmentor/demo_random_crop.gif) | ![demo_contrast](/assets/software/tfAugmentor/demo_random_contrast.gif) | ![demo_elastic](/assets/software/tfAugmentor/demo_random_elastic.gif) |
 
 ## Installation
 tfAugmentor is written in Python and can be easily installed via:
