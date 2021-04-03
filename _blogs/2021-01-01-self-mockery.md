@@ -1,6 +1,7 @@
 ---
 layout: post
 date:   2021-01-01
+feature: /assets/blogs/self-mockery.jpg
 categories:   "blog"
 ---
 

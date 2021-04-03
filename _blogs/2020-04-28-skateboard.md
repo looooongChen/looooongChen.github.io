@@ -1,6 +1,7 @@
 ---
 layout: post
 date:   2020-04-28
+feature: /assets/blogs/skateboard.jpg
 categories: blog
 ---
 

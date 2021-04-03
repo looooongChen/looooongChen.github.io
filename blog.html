@@ -3,16 +3,16 @@ layout: list
 headline: Blogs
 pagination: 
     enabled: true
-    per_page: 10
+    per_page: 6
     collection: blogs
 ---
 {% for post in paginator.posts %} 
     <ul>
         <li class="wow fadeInLeft" data-wow-duration="1s">
             <div class='blog-title'>
-            {% if post.title-disp %}
+            <!-- {% if post.title-disp %}
                 {{ post.title-disp }}
-            {% endif %}
+            {% endif %} -->
             {% if post.feature %}
                 <img class='blog-img' src="{{ post.feature}}" class='blog-feature'>
             {% endif %}

@@ -1,7 +1,7 @@
 ---
 layout: post
-title-disp:  "关于偏见"
 date:  2020-02-21
+feature: /assets/blogs/projudice.jpg
 categories: blog
 ---
 
