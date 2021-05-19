@@ -1,6 +1,6 @@
 ---
 layout: post
-title-disp:  "居高临下"
+title:  居高临下
 date:   2020-03-11
 categories: blog
 ---

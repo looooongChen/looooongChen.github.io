@@ -1,5 +1,6 @@
 ---
 layout: post
+title: 关于滑雪
 date:   2019-11-25
 categories: blog
 feature: /assets/blogs/snowboarding.jpg

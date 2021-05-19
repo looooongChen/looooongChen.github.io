@@ -17,9 +17,7 @@ layout: compress
             <div class="content">
                 <div class="post-title">
                     <h1>{{ page.headline }}</h1>
-                    <a class="btn zoombtn" href="{{site.url}}">
-                        <i class="fa fa-home"></i>
-                    </a>
+                    {% include nav-page.html %}
                 </div>
                 <!-- post list -->
                 <div class="post-list">{{ content }}</div>

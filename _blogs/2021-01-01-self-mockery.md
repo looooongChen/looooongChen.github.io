@@ -1,5 +1,6 @@
 ---
 layout: post
+title: 自嘲
 date:   2021-01-01
 feature: /assets/blogs/self-mockery.jpg
 categories:   "blog"

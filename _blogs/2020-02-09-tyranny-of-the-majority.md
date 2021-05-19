@@ -1,6 +1,6 @@
 ---
 layout: post
-title-disp:  "多数人暴政"
+title:  多数人暴政
 date:   2020-02-09
 feature: /assets/blogs/vote.png
 categories: blog

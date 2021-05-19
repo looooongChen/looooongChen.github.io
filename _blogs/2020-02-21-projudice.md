@@ -1,5 +1,6 @@
 ---
 layout: post
+title: 偏见
 date:  2020-02-21
 feature: /assets/blogs/projudice.jpg
 categories: blog
@@ -13,7 +14,6 @@ categories: blog
 
 可能我们永远都逃不开偏见，意识到它的存可能就是对抗人性的胜利吧。 
 
-（由今天的一段争论引发的思考）  
 
 
 

@@ -25,24 +25,8 @@ layout: compress
                     </p><!-- /.entry-reading-time -->
                     {% endif %}
                     
+                    {% include nav-page.html %}
                     
-                    <a class="btn zoombtn", onclick="history.back(-1)"><i class="fa fa-arrow-left"></i></a>
-                    {% if page.categories contains "project" or page.categories contains "research" %}
-                        <a class="btn zoombtn" href="{{site.url}}/research&project">
-                    {% elsif page.categories contains "publication" %}
-                        <a class="btn zoombtn" href="{{site.url}}/publication/">
-                    {% elsif page.categories contains "software" or page.categories contains 'dataset' %}
-                        <a class="btn zoombtn" href="{{site.url}}/software&dataset/">
-                    {% elsif page.type contains 'blog' %}
-                        <a class="btn zoombtn" href="{{site.url}}/blog/">
-                    {% else %}
-                        <a class="btn zoombtn" href="{{site.url}}/blog/">
-                    {% endif %}
-                        <i class="fa fa-list"></i>
-                    </a>
-                    <a class="btn zoombtn" href="{{site.url}}">
-                        <i class="fa fa-home"></i>
-                    </a>
                 </div>
                 {% if page.authors %}
                     <p> <b>Authors:&nbsp;</b> {{ page.authors }} </p>

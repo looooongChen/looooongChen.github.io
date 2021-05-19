@@ -1,6 +1,7 @@
 ---
 layout: list
 headline: Blogs
+categories: blog
 pagination: 
     enabled: true
     per_page: 6
@@ -19,7 +20,7 @@ pagination:
             </div>
             
             <div class='blog-text'>
-                {{post.content | truncate: 100, ""}}
+                {{post.content | truncate: 200, ""}}
                 {% assign content_size =  post.content | size %}
                 {% if content_size > 100 %}
                 ...... &nbsp;<a class="blog-link-in-text" href="{{ site.url }}{{ post.url }}"> read more</a>

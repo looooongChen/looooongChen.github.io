@@ -1,0 +1,14 @@
+---
+layout: page
+categories: publication
+title: Publication Archive
+comments: false
+---
+{% for post in site.publications %} 
+    <div class="item">
+        <a class='cv-title', href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+        <div><b class='cv-em'>Published in:</b> {{ post.published }}</div>
+        <div class="cv-publication-authors"><b class='cv-em'>Authors:</b> {{ post.authors }}</div>
+        <p></p>
+    </div>
+{% endfor %}

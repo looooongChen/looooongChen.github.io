@@ -1,5 +1,6 @@
 ---
 layout: post
+title: 及时行乐
 date:   2020-07-26
 categories: blog
 ---
