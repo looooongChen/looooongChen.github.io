@@ -57,7 +57,7 @@
 
 experiences:
     - role: Scientific Researcher, PhD student
-      time: 2018.03 - present
+      time: 2018.03 - 2023.12
       organization:  Institute of Imaging & Computer Vision (LfB), RWTH Aachen University, Germany
       link: https://www.lfb.rwth-aachen.de/en/
     - role: Intern in Computer Vision
@@ -75,6 +75,7 @@ experiences:
         
     
 educations:
+    
     - degree: M.Sc. in Computer Engineering
       time: 2014 - 2017
       university: RWTH Aachen University, Aachen, Germany

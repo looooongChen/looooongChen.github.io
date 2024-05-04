@@ -91,7 +91,7 @@ comments: false
         Publications
     </h2>
     <hr>
-    {% for post in site.publications %} 
+    {% for post in site.publications reversed %} 
             <div class="item">
                 <a class='cv-title', href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
                 <div><b class='cv-em'>Published in:</b> {{ post.published }}</div>

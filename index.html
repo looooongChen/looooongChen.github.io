@@ -10,54 +10,66 @@ layout: compress
     {% include head.html %}
 </head>
 <body>
-    {% include nav.html %}
-    <!-- Header -->
-    <header class="header flex" role="banner">
-        <div class="container animated fadeIn">
-            <div class="row">
-                    <a href="{{ site.url }}">
-                        <img src="{{ site.logo }}" class="img-circle zoombtn animated rotateIn">
-                    </a>
-                    <h3 class="title">
-                        <a class="zoombtn" href="{{ site.url }}">
-                        	<p style="font-size:1.2rem;font-weight:300"><b>{{ site.title }}</b></p>
-			            </a>
-                    </h3>
-                    <hr class="hr-line">
-                    <h3 class="title">
-                        <a href="{{ site.url }}">
-                        	<p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
-			            </a>
-                    </h3>
-                    {% include social-links.html %}
-                  <hr class="hr-line">
-                  <h3 class="title">
-                         <a class="btn zoombtn" href="{{ site.url }}/about">
-                            <b>About</b>
-                         </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/research&project">
-                            <b>Researches & Projects</b>
-                         </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/publication">
-                            <b>Publications </b>
-                         </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/software&dataset">
-                            <b>Software & Datasets</b>
-                         </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/blog">
-                            <b>Blog</b>
-                         </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/footprint">
-                            <b>Footprint</b>
-                         </a>
-                         <!-- <a class="btn zoombtn" href="{{ site.url }}/contact">
-                            <b>Contact</b>
-                         </a> -->
-                         
-                 </h3>
-            </div>
-        </div>
-    </header>
-    {% include scripts.html %}
+   {% include nav.html %}
+   <!-- Header -->
+   <header class="header flex" role="banner">
+      <div class="container animated fadeIn">
+         <div class="row">
+            <a href="{{ site.url }}">
+               <img src="{{ site.logo }}" class="img-circle zoombtn animated rotateIn">
+            </a>
+
+            <h3 class="title">
+               <a class="zoombtn" href="{{ site.url }}">
+                  <p style="font-size:1.2rem;font-weight:300"><b>{{ site.title }}</b></p>
+			      </a>
+            </h3>
+
+                  
+            <h3 class="title">
+               <a href="{{ site.url }}">
+                  <p style="font-size:1rem;font-weight:300"><b>{{ site.slogan }}</b></p>
+               </a>
+            </h3>
+
+            <hr class="hr-line">
+
+            <h3 class="title">
+               <a href="{{ site.url }}">
+                  <p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
+			      </a>
+            </h3>
+
+            {% include social-links.html %}
+            <hr class="hr-line">
+
+            <h3 class="title">
+               <a class="btn zoombtn" href="{{ site.url }}/about">
+                  <b>About</b>
+               </a>
+               <a class="btn zoombtn" href="{{ site.url }}/research&project">
+                  <b>Researches & Projects</b>
+               </a>
+               <a class="btn zoombtn" href="{{ site.url }}/publication">
+                  <b>Publications </b>
+               </a>
+               <a class="btn zoombtn" href="{{ site.url }}/software&dataset">
+                  <b>Software & Datasets</b>
+               </a>
+               <a class="btn zoombtn" href="{{ site.url }}/blog">
+                  <b>Blog</b>
+               </a>
+               <!-- <a class="btn zoombtn" href="{{ site.url }}/footprint">
+                  <b>Footprint</b>
+               </a> -->
+               <!-- <a class="btn zoombtn" href="{{ site.url }}/contact">
+                  <b>Contact</b>
+               </a> -->
+                     
+            </h3>
+         </div>
+      </div>
+   </header>
+   {% include scripts.html %}
 </body>
 </html>

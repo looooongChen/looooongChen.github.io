@@ -3,7 +3,7 @@ layout: post
 title:  "High-throughput phenotyping of nematode cysts"
 date:   2022-09-14
 excerpt: ""
-authors: <u><b>Long Chen</b></u>, Matthias Daub2, Hans-Georg Luigs, Marcus Jansen, Martin Strauch and Dorit Merhof
+authors: <u><b>Long Chen</b></u>, Matthias Daub, Hans-Georg Luigs, Marcus Jansen, Martin Strauch and Dorit Merhof
 published: Frontiers in Plant Science
 categories: "publication"
 thumbnail: /assets/publications/thumbnail_frontiers2022.png
