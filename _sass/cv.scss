@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 .cv-section {
     .item {
         margin-bottom: 10px;
@@ -7,7 +9,7 @@
 .cv-section-title {
     display: flex;
     align-items: center;
-    color: $theme-color;
+    color: $theme-color ;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
@@ -15,6 +17,11 @@
     // text-align: center;
     margin-top: 30px;
     margin-bottom: 20px;
+}
+
+.cv-section-title-marker {
+    font-size: 15px;
+    margin-right: 5px;
 }
 
 .cv-upper-row {

@@ -1,5 +1,6 @@
 // Stacked Icons
 // -------------------------
+@use "_variables" as *;
 
 .#{$fa-css-prefix}-stack {
   position: relative;

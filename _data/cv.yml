@@ -56,6 +56,9 @@
 #       Second paragraph if required.
 
 experiences:
+    - role: Research Scientist
+      time: 2025.09 - now
+      organization:  Agentic Lab, Horizon Robotics, China
     - role: Scientific Researcher, PhD student
       time: 2018.03 - 2023.12
       organization:  Institute of Imaging & Computer Vision (LfB), RWTH Aachen University, Germany
@@ -67,7 +70,7 @@ experiences:
     - role: Intern in Database Development
       time: 2017.04 - 2017.09
       organization: Robert Bosch GmbH, Hildesheim, Germany
-      link: https://www.bosch.de/unser-unternehmen/bosch-in-deutschland/hildesheim/
+      link: https://www.bosch.de/unternehmen/bosch-in-deutschland/
     - role: Student Research Assistant
       time: 2016.03 - 2016.06
       organization: Institute of Technical Acoustics (ITA), RWTH Aachen University, Germany
@@ -75,11 +78,17 @@ experiences:
         
     
 educations:
-    
+
+    - degree: P.hD. in Computer Engineering
+      time: 2018 - 2023
+      university: RWTH Aachen University, Aachen, Germany
+      link: https://www.rwth-aachen.de
+      details: |
+
     - degree: M.Sc. in Computer Engineering
       time: 2014 - 2017
       university: RWTH Aachen University, Aachen, Germany
-      link: https://www.rwth-aachen.de/cms/~a/root/
+      link: https://www.rwth-aachen.de
       details: |
         
     - degree: B.Sc. in Microelectronics

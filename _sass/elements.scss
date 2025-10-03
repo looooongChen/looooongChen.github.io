@@ -1,12 +1,20 @@
+@use "variables" as *;
+@use "mixins" as *;
+
 // Buttons
 
 a{
   text-decoration: none;
   &:hover{
     text-shadow: 0 0 3px rgba($color_shark,0.5);
-    color: $orange;
+    color: $hover-color;
   }
 }
+
+a:hover .cv-organization .p{
+  color: $hover-color; 
+}
+
 
 %btnextend {
 	display: inline-block;
@@ -18,7 +26,7 @@ a{
 	color: $color_shark;
 	&:hover {
 		box-shadow: 0 0 3px 0 rgba($color_shark,0.5);
-    color: $orange;
+    color: $hover-color;
 	}
 }
 
@@ -38,7 +46,7 @@ a{
   border: 0;
   &:hover {
 		box-shadow: none;
-    color: $orange;
+    color: $hover-color;
 	}
 	@extend %btnextend;
 }

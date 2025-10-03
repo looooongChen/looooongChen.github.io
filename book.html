@@ -1,0 +1,30 @@
+---
+layout: page
+categories: blog
+title: Blog Archive
+comments: false
+---
+
+
+<!-- <article>
+  <h2 id="{{ tag }}" class="tag-title">{{ tag }}</h2>
+  <ul>
+    {% for post in site.blogs %}
+        <li class="tag-entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</article> -->
+
+
+
+{% for year in site.data.book %}
+    <h2>{{year[0] }}</h2>
+
+    <ul>
+      {% for book in year[1] %}
+      <li><a href="{{ book.link }}">{{ book.title }}&nbsp;|&nbsp;{{ book.author }}</a></li>
+      {% endfor %}
+    </ul>
+
+{% endfor %}
+

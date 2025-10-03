@@ -20,7 +20,9 @@ layout: compress
                     {% include nav-page.html %}
                 </div>
                 <!-- post list -->
-                <div class="post-list">{{ content }}</div>
+                <div class="post-list">
+                    {{ content }}
+                </div>
                 <!-- pagination -->
                 <div class = "pagination">
                     {% if paginator.total_pages > 1 %}

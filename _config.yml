@@ -1,9 +1,12 @@
 # Site
 title:              Long Chen | 陈龙
 slogan:             无冥冥之志者，无昭昭之明；无昏昏之事者，无赫赫之功。
-bio:                Hi, I’m a scientific researcher. <br>
-                    in the field of computer vison and deep learning. <br><br> 
-                    I'm also a snowboarder. <br> It keeps me free and enterprising inside.
+# bio:                Hi, I’m a scientific researcher. <br>
+#                     in the field of computer vison and deep learning. <br><br> 
+#                     I'm also a snowboarder. <br> It keeps me free and enterprising inside.
+bio:                Hi, I’m a project partner of computers. <br><br>
+                    When not plugged into the digital world, you’ll <br> probably find me on a snowboard, a climbing wall, or under the water. <br><br>
+                    The world is rich in sparks for your neurons, <br>yet the rarest skill is staying passionate and focused.
 description:        "Long Chen's personal blog"
 reading_time:       true
 words_per_minute:   150
@@ -82,18 +85,18 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  researches:
-    output: true
-    permalink: /researches/:path/
   publications:
     output: true
     permalink: /publications/:path/
-  softwares:
-    output: true
-    permalink: /softwares/:path/
-  datasets:
-    output: true
-    permalink: /datasets/:path/
+  # researches:
+  #   output: true
+  #   permalink: /researches/:path/
+  # softwares:
+  #   output: true
+  #   permalink: /softwares/:path/
+  # datasets:
+  #   output: true
+  #   permalink: /datasets/:path/
   blogs:
     output: true
     permalink: /blogs/:path/
@@ -119,7 +122,7 @@ pagination:
   collection: 'posts'
 
   # How many objects per paginated page, used to be `paginate` (default: 0, means all)
-  per_page: 2
+  per_page: 5
 
   # The permalink structure for the paginated pages (this can be any level deep)
   permalink: '/page/:num/' # Pages are index.html inside this folder (default)
@@ -161,6 +164,7 @@ pagination:
   # Optional, the default name of the index file for generated pages (e.g. 'index.html')
   # Without file extension
   indexpage: 'index'
+
 
 ############################################################
 

@@ -1,3 +1,6 @@
+@use "variables" as *;
+@use "mixins" as *;
+
 // content area
 .content {
 	@include font-size(14);
@@ -32,10 +35,10 @@
 }
 
 // headings
-h3.title a {
-	color: $color_shark;
-	text-decoration: none;
-}
+// h3.title a {
+// 	color: $color_shark;
+// 	text-decoration: none;
+// }
 
 // post list
 .post-list {
@@ -56,7 +59,7 @@ h3.title a {
 			color: $color_shark;
 			font-weight: 500;
             &:hover {
-                color: $orange;
+                color: $hover-color;
             }
 		}
 
@@ -104,6 +107,19 @@ h3.title a {
 	}
 }
 
+.publication-img{
+	margin-block-start: 1em;
+	margin-block-end: 2em;
+	width: 80%;
+	height: auto;
+	max-height: 450px;
+	border-radius: 10px;
+}
+
+.right-time{
+	text-align: right;
+}
+
 // quotes
 blockquote {
 	font-family:$alt-font;
@@ -136,7 +152,7 @@ a {
   	color: $color_tuatara;
   }
   &:hover {
-  	color: $red;
+  	color: $hover-color;
   }
   &:active {
   	transition: color .3s;

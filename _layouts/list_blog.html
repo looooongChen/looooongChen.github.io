@@ -1,0 +1,27 @@
+---
+layout: list
+---
+{% for post in paginator.posts %} 
+    <ul>
+        <li class="wow fadeInLeft" data-wow-duration="1s">
+            <div class='blog-title'>
+            <!-- {% if post.title-disp %}
+                {{ post.title-disp }}
+            {% endif %} -->
+            {% if post.feature %}
+                <img class='blog-img' src="{{ post.feature}}" class='blog-feature'>
+            {% endif %}
+            </div>
+            
+            <div class='blog-text'>
+                {{post.content | truncate: 200, ""}}
+                {% assign content_size =  post.content | size %}
+                {% if content_size > 100 %}
+                ...... &nbsp;<a class="blog-link-in-text" href="{{ site.url }}{{ post.url }}"> read more</a>
+                {% endif %}
+            </div>
+            <time class='blog-time' datetime="{{ post.date | date: '%b %d, %Y' }}">{{ post.date | date: '%b %d, %Y' }}</time>
+            <!-- <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a> -->
+        </li>
+    </ul>
+{% endfor %}

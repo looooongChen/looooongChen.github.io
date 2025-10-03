@@ -1,5 +1,6 @@
 // Bordered & Pulled
 // -------------------------
+@use "_variables" as *;
 
 .#{$fa-css-prefix}-border {
   padding: .2em .25em .15em;

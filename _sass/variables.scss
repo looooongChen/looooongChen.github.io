@@ -1,8 +1,12 @@
+@use 'sass:color';
+
 //colors
 $bodycolor           : #000;
 $black           	 : #000;
 $white               : #fff;
-$theme-color         : #f48b29;
+// $hover-color         : #f48b29;
+$theme-color         : #27445D;
+$hover-color         : #578FCA;
 $text-color          : #383838;
 $text-secondary      : #97AAC3;
 $color_gray          : #e8e8e8;
@@ -22,7 +26,7 @@ $color_fuscous_gray  : #555;
 $color_alabaster     : #fcfcfc;
 $color_celeste       : #ccc;
 $color_pink_swan     : #bbb;
-$comp-color 	     : complement(#222); 
+$comp-color 	     : color.complement(#222); 
 
 //button colors
 $success			 : #5cb85c;
